@@ -7,6 +7,7 @@ Steps:
 1.Create Lambda function, S3 bucket, DynamoDB Table
 
 2.Give S3 and DynamoDB permissions to Lambda function
+
   The lambda function will have a default role, on the default role we need to add IAM role policies for S3 and DynamoDB
 
 3.Add Trigger from S3
